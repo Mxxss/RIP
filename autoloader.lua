@@ -27,11 +27,25 @@ local gamedata = {
     ["7860844204"] = "https://raw.githubusercontent.com/vfvo/life-sentence/main/lifesentence.lua";
     ["8328351891"] = "https://raw.githubusercontent.com/vfvo/megamansions-tycoon/main/megamansiontycoon.lua";
     ["6170705260"] = "https://raw.githubusercontent.com/vfvo/scripts/main/blendingsim2.lua";
+    ["537413528"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/BuildABoatForTreasure.lua";
+    ["4902872857"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/PetZooTycoon.lua";
+    ["294790062"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/RobloxTitanic.lua";
+    ["8232438881"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/ThiefSimulator.lua";
+    ["7993293100"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/TsunamiGame.lua";
+    ["8884433153"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/CollectAllPets.lua";
+    ["4872321990"] = "https://raw.githubusercontent.com/Mxxss/RBLX-Scripts/main/Islands.lua";
+    ["6783611814"] = "https://raw.githubusercontent.com/Mxxss/RBLX-Scripts/main/Build%20a%20Boat%20to%20Survive.lua";
+    ["8382553377"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/BoomSimulator.lua";
+    ["7603178367"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/ChipotleBurritoBuilder.lua";
+    ["8044403176"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/VehicleChampions.lua";
+    ["6679274937"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/VansWorld.lua";
+    ["4566572536"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/VehicleLegends.lua";
+    ["9203864304"] = "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/raiseafloppa.lua";
 }
 
 for i,v in pairs(gamedata) do
     if tostring(game.PlaceId) == i then 
-        print('place id is '..i.. 'script connected to game is '..v..' loading script ')
+        print('place id is '..i.. ' script connected to game is '..v..' loading script ')
         loadstring(game:HttpGet(v))()
         print('loaded script')
     end
